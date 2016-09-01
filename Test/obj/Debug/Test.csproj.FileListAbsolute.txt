@@ -1,0 +1,7 @@
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Debug\Test.exe
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Debug\Test.pdb
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Debug\illidan.dll
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Debug\illidan.pdb
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\obj\Debug\Test.exe
+C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\obj\Debug\Test.pdb

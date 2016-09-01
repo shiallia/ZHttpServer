@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "illidan", "illidan\illidan.csproj", "{59672755-E51B-4BFE-A9E3-CCE9F6094C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{66FBBEDC-C0F2-4762-9B4A-26DB04246DF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59672755-E51B-4BFE-A9E3-CCE9F6094C72} = {59672755-E51B-4BFE-A9E3-CCE9F6094C72}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59672755-E51B-4BFE-A9E3-CCE9F6094C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59672755-E51B-4BFE-A9E3-CCE9F6094C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59672755-E51B-4BFE-A9E3-CCE9F6094C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59672755-E51B-4BFE-A9E3-CCE9F6094C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FBBEDC-C0F2-4762-9B4A-26DB04246DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FBBEDC-C0F2-4762-9B4A-26DB04246DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FBBEDC-C0F2-4762-9B4A-26DB04246DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FBBEDC-C0F2-4762-9B4A-26DB04246DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
