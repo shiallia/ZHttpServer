@@ -3,15 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Net.Sockets;
+
 
 namespace illidan
 {
+    public delegate void ApiEventHandler(string[] pars, TcpClient s);
     public class Server
     {
         public int port;
         System.Net.Sockets.TcpListener listener;
         bool is_active = true;
         public string rootdic;
+        public Dictionary<String, ApiEventHandler> apidic;
+
+        public void RegisterApi(string apiname , ApiEventHandler fun)
+        {
+            apidic.Add(apiname, fun);
+        }
+
+        public void RemoveApi(string apiname)
+        {
+            apidic.Remove(apiname);
+        }
 
         public Server(int port, string rootdic)
         {

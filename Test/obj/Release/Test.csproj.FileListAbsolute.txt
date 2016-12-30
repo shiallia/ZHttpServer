@@ -1,7 +1,0 @@
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Release\Test.exe
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Release\Test.pdb
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Release\illidan.dll
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\bin\Release\illidan.pdb
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\obj\Release\Test.exe
-C:\Users\DELL\documents\visual studio 2015\Projects\ZHttpServer\Test\obj\Release\Test.pdb

@@ -335,6 +335,7 @@ namespace illidan
             Console.ResetColor();
 
             outputStream.WriteLine("HTTP/1.0 200 OK");
+            outputStream.WriteLine("Content-Type: application/octet-stream");
             //outputStream.WriteLine("Content-Type: Image");
             outputStream.WriteLine("Connection: close");
             outputStream.WriteLine("");
@@ -364,6 +365,8 @@ namespace illidan
 
         public RequestType FindType(string url)
         {
+            
+
             if (File.Exists(url))
             {                
                 if (url.EndsWith(".html"))
